@@ -1,0 +1,54 @@
+{
+  // ---------- General ----------
+  "files.associations": {
+    "*.md": "markdown",
+    "*.html": "html",
+    "*.py": "python",
+    "*.ipynb": "jupyter"
+  },
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.rulers": [100],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // ---------- Markdown + Math (Markdown Preview Enhanced) ----------
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
+  "markdown-preview-enhanced.mathRenderingOption": "KaTeX",   // or "MathJax"
+  "markdown-preview-enhanced.katexConfig": {
+    "macros": {
+      "\\R": "\\mathbb{R}",
+      "\\N": "\\mathbb{N}"
+    }
+  },
+  "markdown.math.enabled": true,          // also keeps the built-in preview happy
+
+  // ---------- Python ----------
+  "python.defaultInterpreterPath": "python",   // change this if you use a venv
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.formatting.provider": "none",        // or "black" if you install it
+  "jupyter.askForKernelRestart": false,
+  "[python]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+
+  // ---------- HTML ----------
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomBrowser": "default",
+  "html.format.wrapLineLength": 100,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  // ---------- Terminal & Run ----------
+  "terminal.integrated.defaultProfile.osx": "zsh",  // change if on Mac/Linux
+  "code-runner.runInTerminal": true,                           // if you install Code Runner
+  "code-runner.saveFileBeforeRun": true,
+  "git.ignoreLimitWarning": true
+}

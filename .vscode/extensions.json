@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    // Markdown + Math
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "goessner.mdmath",
+
+    // Python
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+
+    // HTML / Live preview
+    "ritwickdey.liveserver",
+    "formulahendry.auto-rename-tag",
+
+    // Nice extras
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
